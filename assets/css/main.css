@@ -1322,7 +1322,6 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
-                background-color: rgba(19, 21, 25, 0.4);
 			}
 
 				#header .content .inner > :last-child {
@@ -1659,4 +1658,8 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+	/* Custom edits */
+		.darkbackground {
+			background-color: rgba(19, 21, 25, 0.4);
 		}
